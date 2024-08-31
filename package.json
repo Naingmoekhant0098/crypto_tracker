@@ -1,15 +1,14 @@
 {
+  "homepage" : "https://Naingmoekhant0098.github.io/crypto_tracker",
   "name": "crypto-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-     "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "dependencies": {
     "@h0rn0chse/night-sky": "^2.0.0",
