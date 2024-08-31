@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+  background-color: rgb(27, 18, 34);
+  color: white;
+}
+.bannerInput{
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    font-size: 14px;
+}
+.detail {
+  background-color: rgb(27, 18, 34);
+}
+.cardBg{
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  font-size: 14px;
+  
+}
+.navHeader{
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+
+.navss{
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  font-size: 16px;
+}
+ 
+.footer{
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+  font-size: 14px;
+}
+.para a{
+   color: blue;
+  cursor: pointer;
+}
+
+/* .bannerHeader {
+  font-family: "Neuton", serif;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+.bannerHeader {
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+  }
+/* 
+.navHeader {
+  background-color: rgba(0, 0, 0, 0.144);
+  backdrop-filter: blur(10px);
+} */
