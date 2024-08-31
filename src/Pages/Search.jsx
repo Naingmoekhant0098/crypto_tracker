@@ -40,7 +40,7 @@ const Search = () => {
         fetchLatest();
       } catch (error) {}
     }
-  }, [location.search]);
+  }, [searchTerm]);
 
  
 
@@ -56,7 +56,7 @@ const Search = () => {
   return (
     <div className="mt-[120px]  md:mt-4 ">
       <h3 className="text-center text-[30px] font-semibold">Search Result</h3>
-      <div className=" flex mt-6 items-center gap-4 w-[400px] md:max-w-xl  mx-auto">
+      <div className=" flex mt-6 items-center gap-4 w-[350px] md:max-w-xl  mx-auto">
         <input
           className=" w-full  px-6 py-4  rounded-md  bannerInput focus:border-0 focus:outline-none "
            defaultValue={searchTerm}

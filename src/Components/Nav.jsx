@@ -13,7 +13,7 @@ const Nav = () => {
     <div className=' flex items-center fixed md:relative  w-full z-50   justify-between py-2 px-3 md:px-6 navHeader'> 
         
         <div className="logo">
-            <Link  to={'/'}>
+            <Link  to={'/crypto_tracker'}>
             <img src="./logo2.png" className=' w-[60px] md:w-20 h-[60px] md:h-20' alt="" />
             </Link>
         </div>

@@ -85,7 +85,7 @@ const Currency = () => {
     <div className=" detail">
       <div className=" flex mt-[120px]  md:mt-4   z-50 px-4 md:px-0  items-center gap-2 cursor-pointer text-white text-opacity-75">
         <div className=" hover:underline">
-          <Link to={"/"}>Cryptocurrencies</Link>
+          <Link to={"/crypto_tracker"}>Cryptocurrencies</Link>
         </div>
         <span className=" font-semibold">
           <MdNavigateNext />

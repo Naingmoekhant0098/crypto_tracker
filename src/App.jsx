@@ -16,7 +16,7 @@ const App = () => {
         <Nav />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/crypto_tracker" element={<Home />} />
           <Route path="/cryptocurrencies/:id" element={<Currency />} />
           <Route path="/search" element={<Search />}/>
         </Routes>
